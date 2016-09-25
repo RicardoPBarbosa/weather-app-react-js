@@ -1,0 +1,39 @@
+body{background:#E9E9E9;margin:0;padding:0;width:100%;height:100%;font-family: 'Roboto', sans-serif;-moz-user-select: none; -webkit-user-select: none; -ms-user-select:none; user-select:none;-o-user-select:none;}
+a{text-decoration:none;font-weight:400;color:white;}
+a:hover{color:white;}
+a:visited{color:white;text-decoration:none;}
+a:focus{color:white;text-decoration:none;}
+img{width:100%;}
+input{border:none;outline:none;}
+button{outline:none;border:none;cursor:pointer;}
+button:active{outline:none;border:none;}
+button:focus{outline:none;border:none;}
+.transition{transition: all 0.2s ease-in-out;-o-transition: all 0.2s ease-in-out;-moz-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out;}
+#app{width:400px;margin:auto;margin-top:100px;position:relative;height:544px;overflow:hidden;border:1px solid black;background:url(../img/ny1.jpg) no-repeat 100% 100%;}
+.introPage{position:absolute;width:100%;height:100%;text-align:center;background:url(../img/ny1.jpg) no-repeat 100% 100%;color:white;}
+.introPage h1{font-weight:200 !important;margin-top:45%;margin-bottom:20%;}
+.introPage button{width:70%;margin:auto;padding:15px 0px;margin-bottom:30px;background:rgba(255,255,255,0.1);color:white;font-size:1.1em;font-family: 'Roboto', sans-serif;font-weight:300 !important;}
+.introPage button:hover{background:rgba(255,255,255,0.2);}
+.goBack{position:absolute;width:100%;top:5px;left:0;z-index:10;height:45px;line-height:50px;}
+.goBack i{margin-left:20px;font-size:1.8em;cursor:pointer;color:white}
+.goBack i:hover{opacity:0.7;}
+.weatherPage{position:absolute;width:100%;height:100%;}
+.weatherShow{width:100%;height:100%;background:url(../img/ny3.jpg) no-repeat center;}
+.weatherShow > div{padding:80px 20px 0px 20px;height:84%;text-align:center;color:white;position:relative;}
+#app > div a{text-align:center;position:absolute;bottom:5px;width:100%;left:0;font-size:0.9em;opacity:0.6;font-weight:300;}
+#app > div a:hover{opacity:0.9;}
+.weatherShow > div h3{margin:0;font-weight:300;}
+.weatherShow > div #country{font-weight:300;font-size:0.9em;margin-top:5px;opacity:0.6;}
+.weathInfo{width:100%;float:left;margin-top:30%;}
+.weathInfo div{width:45%;float:left;min-height:120px;}
+.weathInfo p{margin:0;}
+.weathInfo #weathIcon{font-size:4em;vertical-align:middle;text-align:center;margin-bottom:20px;}
+.weathInfo #weathText{font-weight:200;font-size:1.8em;}
+.weathInfo #weathValue{float:left;font-size:4em;position:relative;width:45%;display:inline-block;line-height:100px;}
+.weathInfo #weathValue #metric{font-size:0.3em !important;font-weight:200;position:absolute;top:10px;right:-10px;line-height:40px;}
+.searchForm{position:absolute;width:87%;height:50px;margin-left:50px;z-index:100;}
+.searchForm input{height:40px;width:100%;background:transparent;padding:6px 0px;color:white !important;font-size:1.2em;font-weight:300 !important;font-family: 'Roboto', sans-serif;}
+::-webkit-input-placeholder{color:white;}
+::-moz-placeholder{color:white;}
+:-ms-input-placeholder{color:white;}
+:-moz-placeholder{color:white;}

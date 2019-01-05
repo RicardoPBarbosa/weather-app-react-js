@@ -1,5 +1,5 @@
 # Weather App with ReactJS
-####Weather App made with ReactJS and the Redux architecture
+#### Weather App made with ReactJS and the Redux architecture
 
 ![Screenshot](screenshot.gif)
 
